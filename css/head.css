@@ -1,0 +1,18 @@
+nav {
+  background-color: red;
+  width: 100vw;
+flex-direction: row-reverse;
+display: flex;
+}
+
+nav a{
+  padding: 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+nav a:hover {
+  background-color: white;
+  color: red;
+
+}
