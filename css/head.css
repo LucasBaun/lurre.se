@@ -1,5 +1,6 @@
 nav {
   background-color: red;
+  height: 60px;
   width: 100vw;
 flex-direction: row-reverse;
 display: flex;
@@ -10,6 +11,8 @@ nav a{
   text-decoration: none;
   transition: 0.3s;
   font-size: 1.2em;
+  font-family: 'Patua One';
+  font-weight: bold;
 }
 
 nav a:hover {
