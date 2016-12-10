@@ -1,9 +1,26 @@
 nav {
-  background-color: red;
+  /*background-color: red;*/
   height: 60px;
   width: 100vw;
-flex-direction: row-reverse;
-display: flex;
+  flex-direction: row-reverse;
+  display: flex;
+  padding: 0;
+}
+
+nav img {
+  height: 40px;
+  width: 40px;
+  /*margin: auto 10px;*/
+  padding: 5px;
+
+
+}
+
+nav img:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+  fill: red;
+  transition: 0.3s;
+
 }
 
 nav a{
@@ -17,6 +34,6 @@ nav a{
 
 nav a:hover {
   background-color: white;
-  color: red;
+  color: #1fc8db;
   font-size: 1.3em;
 }
