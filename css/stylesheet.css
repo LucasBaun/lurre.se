@@ -36,6 +36,8 @@ div.container {
   cursor: pointer;
 }
 
-/* .container h1 {
-  color: #fff
+p.infotext {
+  text-align: center;
+  font-size: 15px;
+
 }
