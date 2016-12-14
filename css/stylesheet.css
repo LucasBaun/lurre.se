@@ -41,3 +41,24 @@ p.infotext {
   font-size: 15px;
 
 }
+
+div.cv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.cv i {
+  color: white;
+}
+
+.cv i::before {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.cv h3 {
+  margin: 0 0 0 16px;
+}
