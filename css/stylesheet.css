@@ -64,3 +64,10 @@ div.cv {
 .cv h3 {
   margin: 0 0 0 16px;
 }
+
+div.containercv {
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
