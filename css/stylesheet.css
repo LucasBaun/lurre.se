@@ -5,7 +5,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    /*background: linear-gradient(141deg, #0fb8ad 0%, #22e4f9 51%, #2cb5e8 75%); */
+  /* background: linear-gradient(141deg, #650000 0%, #660066 51%, #66009c 75%); */
+   background: linear-gradient(141deg, #019e69 0%, #22fcb7 51%, #2ad3b1 75%);
 }
 
 .window {
