@@ -1,19 +1,31 @@
-nav {
-  /*background-color: red;*/
-  height: 60px;
+#menubutton {
+  position: absolute;
+  display: none;
   width: 100vw;
+  height: 60px;
+  cursor: pointer;
+  line-height: 60px;
+  padding-left: 15px;
+  color: #fff;
+}
+
+nav, nav div {
+  height: 60px;
+  width: auto;
   flex-direction: row-reverse;
   display: flex;
   padding: 0;
 }
 
+nav {
+  position: absolute;
+  width: 100%;
+}
+
 nav img {
   height: 40px;
   width: 40px;
-  /*margin: auto 10px;*/
   padding: 5px;
-
-
 }
 
 nav img:hover{
@@ -37,4 +49,41 @@ nav a:hover {
   color: #990066;
   font-size: 1.5em;
   padding: 15px 40px;
+}
+
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+
+  #menubutton {
+    display: block;
+  }
+
+  nav {
+    position: static;
+    flex-direction: column;
+    height: auto;
+    display: none;
+    top: 60px;
+    background-color: #fff;
+  }
+
+  nav div.icons {
+    width: 100vw;
+    height: 60px;
+    margin-top: 60px;
+  }
+  nav div a {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  nav div a .fa {
+    font-size: 40px !important;
+  }
+
+  nav a {
+    color: #990000;
+    text-align: center;
+  }
+
 }
