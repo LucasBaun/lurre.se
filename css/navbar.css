@@ -98,13 +98,6 @@ nav a:hover{
     font-size: 1000%;
   }
 
-  .sml{
-    max-width: 100%;
-    font-size: 100%;
-    border-radius: 10%;
-    background-color: rgba(255, 250, 250, 0.8);
-  }
-
   .desktop{
     display: none;
   }
