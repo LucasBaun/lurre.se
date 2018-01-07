@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  flex-direction: column;
+}
+
+h1{
+  font-family: 'Archivo Black';
+}
+
+.first{
+  background-image: url(../img/bg.jpeg);
+  background-size: cover;
+  height: 100vh
+}
+
+.lurre{
+  font-size: 400%;
+  align-content: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.brand{
+  color: #E75926;
+  text-shadow: 1px 4px #a13e1a;
+}
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+  .lurre{
+    padding-top: 50%;
+  }
+}
