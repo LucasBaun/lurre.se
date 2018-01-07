@@ -59,9 +59,17 @@ img.snapcode {
     max-height: 450px;
 }
 
+.mobil{
+  display: none;
+}
+
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
   .lurre{
     padding-top: 50%;
+  }
+
+  .mobil{
+    display: block;
   }
 
   .cv-button {
@@ -81,5 +89,9 @@ img.snapcode {
 
   .first{
     height: 105vh;
+  }
+
+  input{
+    font-size: 500%;
   }
 }
