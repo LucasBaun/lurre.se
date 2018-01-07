@@ -11,6 +11,7 @@ nav a{
   color: #141f1f;
   font-family: 'Abril Fatface';
   font-size: 150%;
+  transition: 0.2s;
 }
 
 nav a:hover{

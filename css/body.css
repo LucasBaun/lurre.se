@@ -11,6 +11,7 @@ h1{
   background-image: url(../img/bg.jpeg);
   background-size: cover;
   height: 100vh;
+  justify-content: center;
 }
 
 .lurre{
@@ -48,6 +49,14 @@ div.options {
 
 div.container {
   margin: 200px auto;
+  text-align: center;
+  justify-content: center;
+
+}
+
+img.snapcode {
+    max-width: 450px;
+    max-height: 450px;
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
@@ -63,6 +72,11 @@ div.container {
 
   div.container {
     margin: 400px auto;
+  }
+
+  img.snapcode {
+      max-width: 550px;
+      max-height: 550px;
   }
 
   .first{
