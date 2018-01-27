@@ -199,6 +199,10 @@ div.cv {
     font-size: 250%;
   }
 
+  h1{
+    color: rgb(220,220,220);
+  }
+
   .gh {
     padding: 40px 55px;
     font-size: 50px;
