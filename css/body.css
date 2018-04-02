@@ -27,6 +27,12 @@ p a{
   color: white;
 }
 
+.image {
+  background: url(../img/bg.jpeg);
+  background-size: cover;
+  height: 155vh;
+}
+
 #wall_1 {
   background: url(../img/bg.jpeg) repeat;
   background-attachment: fixed;
@@ -131,7 +137,7 @@ div.cv {
 }
 
 .second{
-  height: 45vh;
+  height: 55vh;
   background-color: rgb(75,75,75);
   flex-direction: row;
 }
