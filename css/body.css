@@ -293,3 +293,23 @@ div.cv {
   }
 
 }
+
+@media only screen and (max-width: 1500px), only screen and (max-device-width: 8000px) {
+
+  .information{
+    padding-top: 25px;
+  }
+
+  .information img{
+    max-width: 250px;
+  }
+
+  .second{
+    height: 42vh;
+  }
+
+  .text{
+    padding-top: 0px;
+  }
+
+}
