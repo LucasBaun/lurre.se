@@ -168,7 +168,8 @@ div.cv {
 }
 
 .buttons{
-  padding-top: 15px;
+  /* padding-top: 15px; */
+  padding: 15px;
 }
 
 .gh {
@@ -289,7 +290,7 @@ div.cv {
   }
 
   .third{
-    height: 7vh;
+    height: 15vh;
   }
 
 }
