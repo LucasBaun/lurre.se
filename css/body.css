@@ -29,20 +29,20 @@ p a{
 }
 
 .image {
-  background: url(../img/hwbg.jpg);
+  background: url(../img/bg.jpg);
   background-size: cover;
   height: 155vh;
 }
 
 #wall_1 {
-  background: url(../img/hwbg.jpg) repeat;
+  background: url(../img/bg.jpeg) repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
 
 #wall_2 {
-  background: url(../img/hwbg2.jpg) repeat;
+  background: url(../img/bg2.jpeg) repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 50vh;
