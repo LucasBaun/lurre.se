@@ -29,7 +29,7 @@ p a{
 }
 
 .image {
-  background: url(../img/bg.jpg);
+  background: url(../img/bg.jpeg);
   background-size: cover;
   height: 155vh;
 }
