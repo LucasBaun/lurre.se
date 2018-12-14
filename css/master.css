@@ -177,9 +177,116 @@ div.info {
     clear: both;
 }
 
+.mobile{
+	display: none;
+}
 
-@media screen and (max-width: 800px) {
-    .rightbox, .leftbox {
-        width: 100%;
-    }
+.desktop{
+	display: block;
+}
+
+
+.navbarx {
+  overflow: hidden;
+  background-color: #EAE6E5;
+  font-family: 'Poppins', sans-serif;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbarx a {
+  /* float: left; */
+  font-size: 26px;
+  color: #444;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  /* float: left; */
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: #444;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+	width: 100vw;
+}
+
+.navbarx a:hover, .dropdown:hover .dropbtn {
+  /* background-color: #EAE6E5; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	width: 100vw;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media screen and (max-width: 900px) {
+
+	.mobile{
+		display: block;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+  .rightbox, .leftbox {
+  	width: 100%;
+  }
+
+		nav{
+			float: none;
+		}
+
+	body{
+		/* background-size: 230vh; */
+		background-size: auto;
+		background-position: middle;
+		max-height: 100vh;
+	}
+
+	html{
+		max-height: 100vh;
+	}
+
+	.content{
+		letter-spacing: 0px;
+		font-size: 350%;
+		padding-top: 30%;
+	}
+
+
 }
