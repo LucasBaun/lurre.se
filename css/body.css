@@ -162,15 +162,24 @@ div.cv {
 }
 
 .third{
-  height: 10vh;
+  /* height: 1%; */
   background-color: rgb(75,75,75);
   align-content: center;
   text-align: center;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  width: 100%;
 }
 
 .buttons{
-  /* padding-top: 15px; */
-  padding: 15px;
+  padding: 35px;
+  /* width: 100%; */
+  /* flex-direction: row; */
+}
+
+.buttons a {
+  padding: 30px;
 }
 
 .gh {
@@ -282,6 +291,11 @@ div.cv {
   input{
     font-size: 500%;
   }
+  .third{
+    height: 10%;
+    flex-direction: column;
+  }
+
 }
 
 @media only screen and (min-width: 1921px), only screen and (min-device-width: 1081px) {
@@ -291,7 +305,7 @@ div.cv {
   }
 
   .third{
-    height: 15vh;
+    height: 10%;
   }
 
 }
@@ -313,5 +327,6 @@ div.cv {
   .text{
     padding-top: 0px;
   }
+
 
 }
